@@ -43,7 +43,7 @@ space()
 # For loop to display a list of  the files in the directory. f is the file
 for f in file_list:
     f_split = (os.path.splitext(f))
-    print(f_split)
+    print(sorted(f_split))
     # for p, file in enumerate(file_list, start=0):
 space()
 
